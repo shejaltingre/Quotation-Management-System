@@ -17,3 +17,10 @@ C#
 Entity Framework Core
 SQL Server
 JavaScript
+📌 Project Description
+
+💡 Key Highlights
+Implemented dynamic form handling with validation
+Designed database models for quotation workflow
+Developed real-time data binding using Razor Pages
+Integrated tax calculation logic
