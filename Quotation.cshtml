@@ -9,3 +9,23 @@
             <div class="container container-x1 py-4">
 
                 <form class="card card-md" id="quotation-Form" method="post" enctype="multipart/form-data">
+ <input type="hidden" id="HdnEnquiry" asp-for="@Model.Quotation.Enquiry_No" />
+                    <input type="hidden" id="HdnQuotationNo" asp-for="@Model.Quotation.Quotation_No" />
+                    <input type="hidden" id="HdnQuotationDetailsID" asp-for="@Model.QuotationDetails.QuotationDetails_ID" />
+                    <input type="hidden" id="HdnQuotationTaxableAmount" asp-for="@Model.Quotation.Quotation_TaxableAmount" />
+                    <input type="hidden" id="HdnVendorState" />
+                    <input type="hidden" id="HdnQuotationEdit" asp-for="@Model.QuotationEdit" />
+                    <input type="hidden" id="HdnEditRange" />
+
+               
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Add/ Edit Quotation Details</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="note mb-4">Fields marked with <span class="text-danger">*</span>are mandatory</p>
+
+                            <div class="row">
+
+                                
